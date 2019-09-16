@@ -1,4 +1,7 @@
 import React from 'react'
+import MovieFormContainer from './components/MovieFormContainer'
+
+
 
 function App() {
   return (
@@ -6,6 +9,7 @@ function App() {
       <header>
         Movie Poster
       </header>
+      <MovieFormContainer />
     </div>
   )
 }
