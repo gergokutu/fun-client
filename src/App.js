@@ -9,7 +9,12 @@ function App() {
       <header>
         Movie Poster
       </header>
-      <MovieFormContainer />
+      <div className='list'>
+        List of movies with picture comes here...
+      </div>
+      <div className='form'>
+        <MovieFormContainer />
+      </div>
     </div>
   )
 }
