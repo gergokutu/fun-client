@@ -1,20 +1,12 @@
 import React from 'react'
-import MovieFormContainer from './components/MovieFormContainer'
+import { Route } from 'react-router-dom'
 
-
+import Home from './components/Home'
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        Movie Poster
-      </header>
-      <div className='list'>
-        List of movies with picture comes here...
-      </div>
-      <div className='form'>
-        <MovieFormContainer />
-      </div>
+    <div className='App'>
+      <Route exact path='/' component={Home} />
     </div>
   )
 }
