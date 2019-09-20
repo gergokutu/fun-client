@@ -5,6 +5,7 @@ export default function MovieList(props) {
   console.log('props:', movies)
   return (
     <div className='movieList'>
+      <h3>This list contains {movies.length} movies</h3>
       <ul>
         {!movies && 'Loading...'}
         {movies && movies.map(movie => {
