@@ -5,25 +5,29 @@ import MovieList from './MovieList'
 import { getMovies } from '../actions/movies'
 
 class MovieListContainer extends Component {
+  state = {}
+
   componentDidMount() {
     this.props.getMovies()
   }
 
   render() {
+    // console.log('this.props:', this.props)
     return (
-      <MovieList />
+      <MovieList movies={this.props.movies} />
     )
   }
 }
 
-// function mapStateToProps(state) {
-//   return {
-//     events: state.eventsList
-//   }
-// }
+function mapStateToProps(state) {
+  return {
+    movies: state.movies
+  }
+}
 
+// to be able to use getMovies in this component
 const mapDispatchToProps = {
   getMovies
 } 
 
-export default connect(null, mapDispatchToProps)(MovieListContainer )
+export default connect(mapStateToProps, mapDispatchToProps)(MovieListContainer )
