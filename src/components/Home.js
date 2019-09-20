@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import MovieFormContainer from './MovieFormContainer'
+import MovieListContainer from './MovieListContainer'
 
 class Home extends Component {
   render() {
@@ -8,9 +9,11 @@ class Home extends Component {
         <header>
           Movies for all!
         </header>
+
         <div className='list'>
-          List of movies with picture comes here...
+          <MovieListContainer />
         </div>
+        
         <div className='form'>
           <MovieFormContainer />
         </div>
