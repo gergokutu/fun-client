@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import MovieFormContainer from './components/MovieFormContainer'
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        Movie Poster
       </header>
+      <div className='list'>
+        List of movies with picture comes here...
+      </div>
+      <div className='form'>
+        <MovieFormContainer />
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
