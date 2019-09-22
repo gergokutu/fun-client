@@ -12,7 +12,6 @@ class MovieListContainer extends Component {
   }
 
   render() {
-    // console.log('this.props:', this.props)
     return (
       <MovieList movies={this.props.movies} />
     )

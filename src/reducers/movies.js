@@ -10,17 +10,3 @@ const reducer = (state = [], action = {}) => {
 }
 
 export default reducer
-// import { ALL_EVENTS, CREATE_EVENT } from '../actions/events'
-
-// const reducer = (state = [], action = {}) => {
-//   switch (action.type) {
-//     case ALL_EVENTS:
-//       return action.payload
-//     case CREATE_EVENT:
-//       return [action.payload, ...state]
-//     default:
-//       return state
-//   }
-// }
-
-// export default reducer
