@@ -9,7 +9,7 @@ export default function MovieList(props) {
       <div className='movies-container'>
         {!movies && 'Loading...'}
         {movies && movies.map(movie => {
-          return <div key={movie.id} className='movie-item'>
+          return <div key={movie.id} className='movie-card'>
               <p>{movie.title}</p>
               <img src={movie.posterUrl} alt='movie poster' />
             </div>
