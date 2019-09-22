@@ -4,18 +4,18 @@ export default function MovieList(props) {
   const { movies } = props
   console.log('props:', movies)
   return (
-    <div className='movieList'>
-      <h3>This list contains {movies.length} movies</h3>
-      <ul>
+    <div className='movie-list'>
+      <h3>The list contains {movies.length} movies</h3>
+      <div className='movies-container'>
         {!movies && 'Loading...'}
         {movies && movies.map(movie => {
-          return <li key={movie.id}>
+          return <div key={movie.id} className='movie-item'>
               <p>{movie.title}</p>
               <img src={movie.posterUrl} alt='movie poster' />
-            </li>
+            </div>
           }
         )}
-      </ul>
+      </div>
     </div>
   )
 }
