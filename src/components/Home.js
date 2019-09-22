@@ -1,16 +1,19 @@
 import React, { Component } from 'react'
 import MovieFormContainer from './MovieFormContainer'
+import MovieListContainer from './MovieListContainer'
 
 class Home extends Component {
   render() {
     return(
       <div className='homePage'>
-        <header>
+        <h1>
           Movies for all!
-        </header>
+        </h1>
+
         <div className='list'>
-          List of movies with picture comes here...
+          <MovieListContainer />
         </div>
+
         <div className='form'>
           <MovieFormContainer />
         </div>
@@ -18,6 +21,5 @@ class Home extends Component {
     )
   }
 }
-
 
 export default Home
