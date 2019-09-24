@@ -13,8 +13,12 @@ class MovieDetailsContainer extends Component {
 
   render() {
     // console.log('MovieDetailsContainer PROPS:', this.props)
+    const pathname = this.props.location.pathname
+    const splitPath = pathname.split('/')
+    const id = splitPath[2]
+
     return (
-      <MovieDetails movies={this.props.movies}/>
+      <MovieDetails movies={this.props.movies} movieId={id}/>
     )
   }
 }
