@@ -25,7 +25,8 @@ export default function Card(
     onClick={() => disabled ? null : handleClick(id)}
   >
     <div className='flipper'>
-      <img
+      <img 
+        className='flipping-game-card'
         alt='movie star or poster'
         style={
           { 

@@ -15,7 +15,7 @@
   position: relative;
 }
 
-img {
+.flipping-game-card {
   border-radius: 14%;
   vertical-align: bottom;
   cursor: pointer;
@@ -23,7 +23,7 @@ img {
               20px 35px 28px 10px rgba(80, 76, 70, 0.192);
 }
 
-img:hover {
+.flipping-game-card:hover {
   /* transform: scale(1.2); */
   animation: shake 0.7s;
 }
