@@ -1,0 +1,13 @@
+body {
+  width: 100%;
+  /* background: rgba(224, 198, 149, 0.993); */
+  background-image: url('https://www.sccpre.cat/png/big/32/320844_vintage-overlay-png.png');
+  background-size: 100%;
+}
+
+.board {
+  margin: 0px;
+  padding: 5px;
+  text-align: center;
+  /* border: 20px groove rgb(14, 238, 59); */
+}
