@@ -1,19 +1,10 @@
-// import React from 'react'
-
-// export default function CardFlipping() {
-//   return (
-//     <div className='card-flipping'>Card flipping game comes here</div>
-//   )
-// }
-
 import React, { useState, useEffect } from 'react'
 import Board from './Board'
-// import Card from './components/card'
 import initializeDeck from './deck'
 
 import '../../../styling/cardflipping.css'
 
-export default function App() {
+export default function CardFlipping() {
   const [cards, setCards] = useState([])
   const [flipped, setFlipped] = useState([])
   const [dimension, setDimension] = useState(400)
@@ -86,8 +77,8 @@ export default function App() {
   }
 
   return (
-    <div>
-      <h1>Flip the movies!</h1>
+    <div className='flipping-game-body'>
+      <h1 className='flipping-game-title'>Flip the movies!</h1>
       <Board
         dimension={dimension}
         cards={cards}
