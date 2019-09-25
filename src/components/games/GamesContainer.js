@@ -6,7 +6,7 @@ class GamesContainer extends Component {
     return (
       <div className='games-container'>
         <p>Game previews come here. Click on the game and play!</p>
-        <Link to='/games/card-flipping'><button>Flipping</button></Link>
+        <Link to='/games/card-flipping'><button>Go to Flipping</button></Link>
       </div>
     )
   }
