@@ -1,0 +1,17 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.navbar-title {
+  margin: 2rem;
+  float: left;
+}
+
+.navbar-element {
+  margin: 2rem;
+  float: right;
+  font-size: 1.5rem
+}

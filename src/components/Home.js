@@ -6,10 +6,6 @@ class Home extends Component {
   render() {
     return(
       <div className='homePage'>
-        <h1>
-          Movies for all!
-        </h1>
-
         <div className='list'>
           <MovieListContainer />
         </div>

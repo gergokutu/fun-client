@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import '../styling/movielist.css'
+
 export default function MovieList(props) {
   const { movies } = props
   // console.log('props:', movies)
