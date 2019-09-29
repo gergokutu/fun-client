@@ -17,3 +17,7 @@
   float: right;
   font-size: 2.5rem;
 }
+
+.navbar-element:hover {
+  color: rgb(248, 162, 1);
+}
