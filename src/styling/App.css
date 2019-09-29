@@ -1,3 +1,7 @@
+html {
+  background-color: rgb(191, 218, 240);
+}
+
 .app {
   z-index: 0;
 }

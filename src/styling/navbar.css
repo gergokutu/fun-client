@@ -3,15 +3,17 @@
   top: 0;
   width: 100%;
   z-index: 0;
+  background-color: rgb(191, 218, 240);
 }
 
 .navbar-title {
   margin: 2rem;
   float: left;
+  font-size: 3rem;
 }
 
 .navbar-element {
-  margin: 2rem;
+  margin: 2rem 4rem;
   float: right;
-  font-size: 1.5rem
+  font-size: 2.5rem;
 }

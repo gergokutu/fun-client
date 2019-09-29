@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
+import '../../styling/games.css'
+
 class GamesContainer extends Component {
   render() {
     return (
