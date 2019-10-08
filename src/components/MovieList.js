@@ -5,7 +5,7 @@ import '../styling/movielist.css'
 
 export default function MovieList(props) {
   const { movies } = props
-  // console.log('props:', movies)
+  
   return (
     <div className='movie-list'>
       <h3 className='movie-counter'>The list contains {movies.length} movies</h3>
@@ -24,6 +24,3 @@ export default function MovieList(props) {
     </div>
   )
 }
-
-// direct somehow to the exact page...
-// to ={`/dog-breeds/${breed}`}

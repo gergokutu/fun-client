@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 
 import MovieList from './MovieList'
 import { getMovies } from '../actions/movies'
+import Pagination from './Pagination'
 
 class MovieListContainer extends Component {
   state = {}
@@ -12,9 +13,10 @@ class MovieListContainer extends Component {
   }
 
   render() {
-    return (
+    return <div>
       <MovieList movies={this.props.movies} />
-    )
+      <Pagination movies={this.props.movies}/>
+    </div>
   }
 }
 
