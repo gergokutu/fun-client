@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
-import MovieFormContainer from './MovieFormContainer'
+// import MovieFormContainer from './MovieFormContainer'
 import MovieListContainer from './MovieListContainer'
+
+import '../styling/home.css'
 
 class Home extends Component {
   render() {
@@ -10,9 +12,9 @@ class Home extends Component {
           <MovieListContainer />
         </div>
 
-        <div className='form'>
+        {/* <div className='form'>
           <MovieFormContainer />
-        </div>
+        </div> */}
       </div>
     )
   }

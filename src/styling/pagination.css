@@ -1,0 +1,21 @@
+/* .pagintation {
+  text-align: center;
+} */
+
+.page-item {
+  display: inline;
+  list-style-type: none;
+}
+
+.page-link {
+  border: 1px solid rgba(183, 208, 218, 0.8);
+  margin: 0.5%;
+  height: auto;
+  width: 4rem;
+}
+
+.page-link:hover {
+  border: 1px solid rgba(223, 110, 17, 0.8);
+  background-color: rgba(236, 172, 119, 0.8);
+  /* cursor: grab; */
+} 
