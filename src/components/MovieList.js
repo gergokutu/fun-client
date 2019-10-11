@@ -8,7 +8,7 @@ export default function MovieList(props) {
   
   return (
     <div className='movie-list'>
-      <h3 className='movie-counter'>The list contains {movies.length} movies</h3>
+      {/* <h3 className='movie-counter'>The page contains {movies.length} movies</h3> */}
       <div className='movies-container'>
         {!movies && 'Loading...'}
         {movies && movies.map(movie => {

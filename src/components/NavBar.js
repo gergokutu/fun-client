@@ -9,7 +9,7 @@ class NavBar extends Component {
       <div className='navbar'>
         <h1 className='navbar-title'>Movies for all!</h1>
         {/* order changed because of styling */}
-        <Link to='/games'><span className='navbar-element'>Games</span></Link>
+        <Link to='/games/card-flipping'><span className='navbar-element'>Play</span></Link>
         <Link to='/'><span className='navbar-element'>Home</span></Link>
       </div>
     )

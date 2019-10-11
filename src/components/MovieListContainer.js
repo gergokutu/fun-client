@@ -6,16 +6,31 @@ import { getMovies } from '../actions/movies'
 import Pagination from './Pagination'
 
 class MovieListContainer extends Component {
-  state = {}
+  state = {
+    currentPage: 1,
+    moviesPerPage: 12
+  }
 
   componentDidMount() {
     this.props.getMovies()
   }
-
+  
   render() {
+    // get current movie
+    const indexOfLastMovie = this.state.currentPage * this.state.moviesPerPage
+    const indexOfFirstMovie = indexOfLastMovie - this.state.moviesPerPage
+    const currentMovies = this.props.movies.slice(indexOfFirstMovie, indexOfLastMovie)
+
+    // change page
+    const paginate = (pageNumber) => this.setState({currentPage: pageNumber})
+
     return <div>
-      <MovieList movies={this.props.movies} />
-      <Pagination movies={this.props.movies}/>
+      <MovieList movies={currentMovies} />
+      <Pagination 
+        moviesPerPage={this.state.moviesPerPage} 
+        totalMovies={this.props.movies.length} 
+        paginate={paginate}
+      />
     </div>
   }
 }
