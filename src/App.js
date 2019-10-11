@@ -7,7 +7,7 @@ import GamesContainer from './components/games/GamesContainer'
 import CardFlipping from './components/games/card-flipping/CardFlipping'
 import NavBar from './components/NavBar'
 
-import './styling/app.css'
+import './styling/App.css'
 
 function App() {
   return (
