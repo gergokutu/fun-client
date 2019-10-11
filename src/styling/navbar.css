@@ -3,19 +3,19 @@
   top: 0;
   width: 100%;
   z-index: 0;
-  /* background-color: rgb(191, 218, 240); */
-  background-color: transparent;
+  background-color: rgba(110, 60, 19, 0.4);
+  /* background-color: transparent; */
 }
 
 .navbar-title {
-  margin: 2rem;
+  margin: 1rem;
   float: left;
   font-size: 3rem;
   color: rgb(243, 232, 205);
 }
 
 .navbar-element {
-  margin: 2rem 4rem;
+  margin: 1.7rem 4rem;
   float: right;
   font-size: 2.5rem;
   color: rgb(219, 181, 98);

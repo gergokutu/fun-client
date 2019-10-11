@@ -8,7 +8,7 @@ import Pagination from './Pagination'
 class MovieListContainer extends Component {
   state = {
     currentPage: 1,
-    moviesPerPage: 12
+    moviesPerPage: 10
   }
 
   componentDidMount() {
