@@ -12,7 +12,8 @@
 .flipper {
   transition: 1s;
   transform-style: preserve-3d;
-  position: relative;
+  position: absolute;
+  z-index: 0;
 }
 
 .flipping-game-card {
@@ -44,7 +45,7 @@
 
 .front, .back {
   backface-visibility: hidden;
-  position: absolute;
+  /* position: absolute; */
   left: 0px;
   top: 0px;
 }

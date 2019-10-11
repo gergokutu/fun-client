@@ -2,6 +2,7 @@
 .flipping-game-title {
   margin-bottom: 5px;
   margin-top: 7px;
+  padding: 1rem;
   letter-spacing: 10px;
   font-size: 85px;
   font-family: 'Gloria Hallelujah', cursive;

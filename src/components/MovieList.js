@@ -1,12 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import '../styling/movielist.css'
+
 export default function MovieList(props) {
   const { movies } = props
-  // console.log('props:', movies)
+  
   return (
     <div className='movie-list'>
-      <h3>The list contains {movies.length} movies</h3>
+      {/* <h3 className='movie-counter'>The page contains {movies.length} movies</h3> */}
       <div className='movies-container'>
         {!movies && 'Loading...'}
         {movies && movies.map(movie => {
@@ -22,6 +24,3 @@ export default function MovieList(props) {
     </div>
   )
 }
-
-// direct somehow to the exact page...
-// to ={`/dog-breeds/${breed}`}

@@ -1,22 +1,20 @@
 import React, { Component } from 'react'
-import MovieFormContainer from './MovieFormContainer'
+// import MovieFormContainer from './MovieFormContainer'
 import MovieListContainer from './MovieListContainer'
+
+import '../styling/home.css'
 
 class Home extends Component {
   render() {
     return(
       <div className='homePage'>
-        <h1>
-          Movies for all!
-        </h1>
-
         <div className='list'>
           <MovieListContainer />
         </div>
 
-        <div className='form'>
+        {/* <div className='form'>
           <MovieFormContainer />
-        </div>
+        </div> */}
       </div>
     )
   }

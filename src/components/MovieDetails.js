@@ -1,18 +1,19 @@
 import React from 'react'
+import '../styling/moviedetails.css'
 
 export default function MovieDetails(props) {
   const { movies, movieId } = props
   
   return (
     <div className='detail-page'>
-      <p>Details of movie with id: <b>{movieId}</b></p>
+      
 
       {movies && movies.map(movie => {
         if (movie.id === parseInt(movieId)) {
           return (
             <div className='movie-details' key={movie.id}>
-              <p>{movie.title}</p>
-              <img src={movie.posterUrl} alt='movie poster' />
+              <h1>{movie.title}</h1>
+              <img className='movie-poster' src={movie.posterUrl} alt='movie poster' />
               <p>{movie.overview}</p>
               <p>Rate: {movie.rate}</p>
               <p>Total votes: {movie.votes}</p>

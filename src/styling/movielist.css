@@ -1,0 +1,37 @@
+.movie-counter {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.movie-list {
+  display: block;
+  /* background-color: rgb(191, 218, 240); */
+  padding: 10px;
+}
+
+.movies-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  /* justify-content: right; */
+  /* grid-auto-rows: minmax(100px, auto); */
+  /* background-color: rgb(191, 218, 240); */
+  padding: 10px;
+}
+
+.movie-card {
+  width: 210px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 3px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  margin: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.movie-card:hover {
+  border: 3px solid rgba(223, 110, 17, 0.8);
+  background-color: rgba(236, 172, 119, 0.8);
+  /* cursor: grab; */
+}
+
