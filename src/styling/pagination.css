@@ -8,6 +8,8 @@
 }
 
 .page-link {
+  font-size: 1rem;
+  font-weight: bold;
   border: 1px solid rgba(183, 208, 218, 0.8);
   margin: 0.5%;
   height: auto;

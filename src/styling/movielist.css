@@ -5,7 +5,7 @@
 
 .movie-list {
   display: block;
-  background-color: rgb(191, 218, 240);
+  /* background-color: rgb(191, 218, 240); */
   padding: 10px;
 }
 
@@ -15,7 +15,7 @@
   grid-gap: 10px;
   /* justify-content: right; */
   /* grid-auto-rows: minmax(100px, auto); */
-  background-color: rgb(191, 218, 240);
+  /* background-color: rgb(191, 218, 240); */
   padding: 10px;
 }
 

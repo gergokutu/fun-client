@@ -1,5 +1,7 @@
 html {
-  background-color: rgb(191, 218, 240);
+  /* background-color: rgb(191, 218, 240); */
+  background-image: url('https://www.sccpre.cat/png/big/32/320844_vintage-overlay-png.png');
+  background-size: 100%;
 }
 
 .app {
