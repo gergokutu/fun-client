@@ -1,22 +1,9 @@
 import React from 'react'
 
-const Pagination = (props) => {
-  console.log('props.movies:', props.movies)
-  const { movies } = props
-
-  const currentPage = 1
-  const moviesPerPages = 6
-  const totalPages = props.movies.length
-  const paginate = 'D'
-
-   // get current post
-   const indexOfLastMovie = currentPage * moviesPerPages
-   const indexOfFirstMovie = indexOfLastMovie - moviesPerPages
-   const currentMovies = movies.slice(indexOfFirstMovie, indexOfLastMovie)
-
+const Pagination = ({ moviesPerPage, totalMovies, paginate }) => {
   const pageNumbers = []
 
-  for (let i = 1; i <= Math.ceil(totalPages / moviesPerPages); i++) {
+  for (let i = 1; i <= Math.ceil(totalMovies / moviesPerPage); i++) {
     pageNumbers.push(i)
   }
 
@@ -25,9 +12,9 @@ const Pagination = (props) => {
       <ul className='pagination'>
         {pageNumbers.map(number => (
           <li key={number} className='page-item'>
-            <a onClick={() => paginate(number)} href='!#' className='page-link'>
+            <button onClick={() => paginate(number)} className='page-link'>
               {number}
-            </a>
+            </button>
           </li>
         ))}
       </ul>
