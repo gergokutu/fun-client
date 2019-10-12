@@ -1,4 +1,16 @@
-mmmm
+
+# :star: Movie App :star:
+With this app you can check the details a bunch of movies and play a card flipping memory game.
+
+### Technologies used 
+* React
+* React Hooks
+* Redux
+* CSS grid and animations
+
+## :point_right: [checkout the deployed version here](https://movie-client.netlify.com) :point_left:
+
+![](movies2.gif)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
