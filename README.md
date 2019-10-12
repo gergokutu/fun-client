@@ -1,5 +1,5 @@
 
-# :camera: Movie App :camera:
+# :movie: Movie App :movie:
 With this app you can check the details a bunch of movies and play a card flipping memory game.
 
 ### Technologies used 
