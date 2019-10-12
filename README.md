@@ -1,5 +1,3 @@
-![](https://drive.google.com/open?id=1Yk1ibGL7XImn_0cu8PpaaP83dQuQDNao)
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
