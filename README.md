@@ -12,7 +12,7 @@ With this app you can check the details a bunch of movies and play a card flippi
 
 ![](movies2.gif)
 
-You can find the [server-side](https://github.com/gergokutu/movie-server).
+You can find the [server-side](https://github.com/gergokutu/movie-server) here.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
