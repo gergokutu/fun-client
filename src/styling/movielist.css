@@ -5,7 +5,6 @@
 
 .movie-list {
   display: block;
-  /* background-color: rgb(191, 218, 240); */
   padding: 10px;
 }
 
@@ -13,16 +12,15 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 10px;
-  /* justify-content: right; */
-  /* grid-auto-rows: minmax(100px, auto); */
-  /* background-color: rgb(191, 218, 240); */
   padding: 10px;
 }
 
 .movie-card {
   width: 210px;
+  min-height: 425px;
   background-color: rgba(255, 255, 255, 0.8);
-  border: 3px solid rgba(0, 0, 0, 0.8);
+  border: 0.4rem solid rgba(161, 96, 22, 0.8);
+  border-radius: 0.8rem;
   padding: 20px;
   margin: 10px;
   font-size: 1rem;
@@ -30,8 +28,20 @@
 }
 
 .movie-card:hover {
-  border: 3px solid rgba(223, 110, 17, 0.8);
+  border: 0.4rem solid rgba(223, 110, 17, 0.8);
   background-color: rgba(236, 172, 119, 0.8);
-  /* cursor: grab; */
+  min-height: 425px;
+  padding: 20px;
+}
+
+.movie-card > p {
+  min-height: 4rem;
+}
+
+.movie-card-image {
+  display: block;
+  margin: auto;
+  padding-bottom: 0px;
+  
 }
 

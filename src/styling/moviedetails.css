@@ -1,9 +1,12 @@
 .detail-page {
-  margin: 8rem 4rem 8rem 8rem;
+  margin: 20rem;
+  color: rgb(37, 25, 0);
+  text-align: center;
 }
 
 .movie-poster {
-  height: 350px;
+  display: inline-block;
+  height: 500px;
   width: auto;
 }
 

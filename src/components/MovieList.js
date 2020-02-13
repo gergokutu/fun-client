@@ -15,7 +15,7 @@ export default function MovieList(props) {
           return <Link to={`/details/${movie.id}`} key={movie.id}>
               <div className='movie-card'>
                 <p>{movie.title}</p>
-                <img src={movie.posterUrl} alt='movie poster' />
+                <img src={movie.posterUrl} class='movie-card-image' alt='movie poster' />
               </div>
             </Link>
           }
